@@ -15,7 +15,7 @@ class GrammarExerciseTest {
     }
 
     @Test
-    void should_return_common_words_with_space() {
+    void should_return_common_words_with_space() throws Exception {
         //given
         String first = "apple,juice,mother,people,beautiful,apple,dog";
         String second = "cat,baby,smile,good,apple,beautiful,Dog,nice";
